@@ -1,0 +1,30 @@
+//const [allValues, setAllValues] = useContext(CurrencyContext);
+    // const [allValues, setAllValues] = useState(["EUR"]);
+    // const [getRates, setRates] = useState();
+    // const [fromCurrency, setfromCurrency] = useState("");
+    // const [toCurrency, setToCurrency] = useState("");
+    // const [amount1, setAmount1] = useState(1);
+    // const [amount2, setAmount2] = useState();
+
+
+
+// useEffect(() => {
+    //     axios({
+    //         method: "GET",
+    //         url: "https://api.exchangeratesapi.io/latest",
+    //     })
+    //         .then((response) => {
+    //             //const data = response.json();
+    //             console.log("goingHere");
+    //             const data = response.data.rates;
+    //             setRates(data);
+    //             //console.log(JSON.parse(getRates));
+    //             //const temp = Object.keys(data);
+    //             setAllValues(Object.keys(data));
+    //             //console.log(allValues);
+    //         })
+    //         .catch((error) => {
+    //             console.log(error)
+    //         })
+
+    // }, []);
